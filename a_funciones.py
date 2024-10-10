@@ -35,6 +35,6 @@ def medir_modelos(modelos,scoring,X,y,cv):
         pdscores=pd.DataFrame(scores)
         metric_modelos=pd.concat([metric_modelos,pdscores],axis=1)
     
-    metric_modelos.columns=["LogisticRegression","RandomForestClassifier","DecisionTreeClassifier","GradientBoostingClassifier"]
+    metric_modelos.columns=["LogisticRegression","RandomForestClassifier","DecisionTreeClassifier"]
     return metric_modelos
 
