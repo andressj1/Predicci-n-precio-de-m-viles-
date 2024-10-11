@@ -13,9 +13,6 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 
-#Librerías para la coneción con bigquery
-from google.cloud import bigquery
-from google.oauth2 import service_account
 
 
 
